@@ -21,6 +21,7 @@ class ViewController: UIViewController {
         for item in items {
             if item.hasPrefix("nssl"){
                 pictures.append(item)
+                print("1")
             }
         }
         
